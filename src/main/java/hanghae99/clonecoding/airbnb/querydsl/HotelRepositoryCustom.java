@@ -1,20 +1,14 @@
 package hanghae99.clonecoding.airbnb.querydsl;
 
-import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.dsl.BooleanExpression;
-import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import hanghae99.clonecoding.airbnb.dto.MainPageHotelInfoDto;
 import hanghae99.clonecoding.airbnb.dto.QMainPageHotelInfoDto;
 import hanghae99.clonecoding.airbnb.dto.RequestHotelsDto;
-import hanghae99.clonecoding.airbnb.entity.QFacility;
 import hanghae99.clonecoding.airbnb.entity.QHotel;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.web.jaasapi.JaasApiIntegrationFilter;
 import org.springframework.stereotype.Repository;
 
-import javax.transaction.Transactional;
-import java.util.ArrayList;
 import java.util.List;
 
 import static hanghae99.clonecoding.airbnb.entity.QCategory.category1;
